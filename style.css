@@ -65,14 +65,17 @@ input[type="text"],textarea[type="text"],input[type="email"]{
 .form-control::placeholder{
             color: white;
             opacity: 1;
+            line-height: 10px;
+            
         }
-.col1{
-       padding:20px;
-       padding-left: 200px;
+#contact > .row{
+    padding-left:380px;
+    
+    
 }
 textarea{
     width:800px;
-    padding-left:400px ;
+    padding-left:10px ;
 }
  .slide {
     height: auto;
