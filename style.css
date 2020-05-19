@@ -57,7 +57,7 @@
         position: relative;
         overflow: hidden;
           }
- #hov:hover img {
+#hov:hover img {
         transform: scale(1.2) ;
         transition: all 0.8s ease;
         opacity: 80%;
@@ -68,3 +68,20 @@
         -ms-transition: all 0.8s ease;
         -o-transition: all 0.8s ease;
           }
+
+overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            cursor: pointer;
+            
+            transition: all 0.5s ease;
+          }
+          #contact{
+            background-image: url("IP3/assets/backgrounds/c_image.jpg");
+            height: 50vh;
+            width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
