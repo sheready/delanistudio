@@ -126,26 +126,26 @@
         <div class="container3"> 
             <h2>CONTACT US</h2>
           <form id="contact">
-            <div class="row">
-              <div class="col1">
-                <label for="b_name"></label>
-                <input type="text" class="form-control" id="b_name" placeholder="Name..." size="50">
-              </div>
-              <div class="col1">
-                <label for="b_email"></label>
-                <input type="email" class="form-control" id="b_email" placeholder="Email..." size="50">
-              </div>
-            </div><br>
+            <div class="form-group row">
+                <div class="col-xs-3">
+                  <label for="b_name">Name</label>
+                  <input class="form-control" id="b_name" type="text" placeholder="Name...">
+                </div>
+                 <div class="col-xs-2">
+                  <label for="b_email">Email:</label>
+                  <input class="form-control" id="b_email" type="email" placeholder="Email...">
+                </div>
+              </div><br>
             <div class="form-group">
               <label for="b_comment"></label>
-              <textarea id="b_comment" name="message" rows="6" cols="70" class="form-control" placeholder="Your message here..." type="text" ></textarea>
+              <textarea id="b_comment" name="message" rows="6" cols="70" class="form-control" placeholder="Your message here..." type="text"  ></textarea>
             </div><br><br>
             <div class="text-left">
               <button type="submit" class="btn btn-primary mb-2" onsubmit="close();" id="submit">Submit</button>
             </div>
-          </form>
+            </form>
         </div>
-      </div>
+      
       <script src="jQuery/jquery-3.5.1 (1).js"></script>
       <script src="script.js"></script>
       
