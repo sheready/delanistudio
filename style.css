@@ -10,3 +10,34 @@
 #about{
         text-align: center;
     }
+#logo{
+        padding-bottom:20px;
+    }
+    
+#mouse_click{
+        padding-top: 240px;
+    }
+.services{
+        background-image: url("IP3/assets/backgrounds/s_image.jpg");
+        text-align: center;
+        color: whitesmoke;
+        width:100%;
+        padding-top:80px;
+        font-size:20px;
+        background-repeat: no-repeat;
+    }
+.Services{
+        text-align:center;
+        padding-top: 5%;
+    
+    }
+.portfolio{
+        text-align: center;
+        justify-content:space-around;
+        margin-top: 5%;
+      }
+
+#header{
+        font-size:40px;
+        padding:10px;
+    }
