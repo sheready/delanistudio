@@ -41,3 +41,6 @@
         font-size:40px;
         padding:10px;
     }
+.p1, .p2, .p3{
+        display:none;
+        }
