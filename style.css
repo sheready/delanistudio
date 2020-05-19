@@ -5,26 +5,32 @@
     padding-top:290px;
     color: white;
     background-repeat: no-repeat;
+    background-size: cover;
     }
 
 #about{
         text-align: center;
+        height: 200px;
     }
+
 #logo{
         padding-bottom:20px;
     }
     
 #mouse_click{
         padding-top: 240px;
+        padding-bottom: 50px;
     }
 .services{
         background-image: url("IP3/assets/backgrounds/s_image.jpg");
         text-align: center;
         color: whitesmoke;
         width:100%;
-        padding-top:80px;
+        padding-top:100px;
         font-size:20px;
+        background-size: cover;
         background-repeat: no-repeat;
+        height:450px;
     }
 .Services{
         text-align:center;
@@ -41,29 +47,33 @@
         display:none;
         }
  
-
-
-
-#contact{
+.container3{
             background: url("IP3/assets/backgrounds/c_image.jpg");
             width: 100%;
-            height: 65vh;
+            height: 400px;
             background-size: cover;
             color: white;
             text-align: center;
-            padding-top: 2%;
+            background-repeat: no-repeat;
         }
 input[type="text"],textarea[type="text"],input[type="email"]{
             outline: none;
             background-color: transparent;
             color: white;
             font-weight: 500;
-            font-family: 'Gugi', cursive;
-        }
+ }
 .form-control::placeholder{
             color: white;
             opacity: 1;
         }
+.col1{
+       padding:20px;
+       padding-left: 200px;
+}
+textarea{
+    width:800px;
+    padding-left:400px ;
+}
  .slide {
     height: auto;
     width: 50%;
@@ -108,4 +118,9 @@ input[type="text"],textarea[type="text"],input[type="email"]{
 .img-title {
     opacity:0;
 }
-        
+.hide{
+    display: none;
+}
+.text-center h2{
+    text-align: center;
+}
