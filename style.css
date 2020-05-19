@@ -31,11 +31,7 @@
         padding-top: 5%;
     
     }
-.portfolio{
-        text-align: center;
-        justify-content:space-around;
-        
-      }
+
 
 #header{
         font-size:40px;
@@ -44,44 +40,72 @@
 .p1, .p2, .p3{
         display:none;
         }
-.line{
-        background-color: rgba(250, 250, 250, 0.6);
-        width: 100%;
-        height: 200%;
-        position: absolute;
-        opacity: 0;
-        text-align:center;
-          }
-#hov{
-        margin:10px 0;
-        position: relative;
-        overflow: hidden;
-          }
-#hov:hover img {
-        transform: scale(1.2) ;
-        transition: all 0.8s ease;
-        opacity: 80%;
-        background-color:grey;
-        border: 5px solid black;
-        -webkit-transition: all 0.8s ease;
-        -moz-transition: all 0.8s ease;
-        -ms-transition: all 0.8s ease;
-        -o-transition: all 0.8s ease;
-          }
+ 
 
-overlay{
-            position: absolute;
+
+
+#contact{
+            background: url("IP3/assets/backgrounds/c_image.jpg");
             width: 100%;
-            height: 100%;
-            background: transparent;
-            cursor: pointer;
-            
-            transition: all 0.5s ease;
-          }
-          #contact{
-            background-image: url("IP3/assets/backgrounds/c_image.jpg");
-            height: 50vh;
-            width:100%;
+            height: 65vh;
             background-size: cover;
-            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+            padding-top: 2%;
         }
+input[type="text"],textarea[type="text"],input[type="email"]{
+            outline: none;
+            background-color: transparent;
+            color: white;
+            font-weight: 500;
+            font-family: 'Gugi', cursive;
+        }
+.form-control::placeholder{
+            color: white;
+            opacity: 1;
+        }
+ .slide {
+    height: auto;
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+    position: relative;
+    margin:10px 0;
+    position: relative;
+    overflow: hidden;
+ }      
+.slide:hover {
+   
+    transition: all 0.8s ease-in;
+    opacity: 2;
+    -webkit-transition: all 0.8s ease-in;
+    -moz-transition: all 0.8s ease-in;
+    -ms-transition: all 0.8s ease-in;
+    -o-transition: all 0.8s ease-in;
+        }
+        
+.img-title p {
+            position: absolute;
+            color: #fff;
+            top: 33%;
+            width: 50%;
+            text-align: center;
+            border: 4px solid whitesmoke;
+            background-color: rgba(14, 13, 13, 0.4);
+        }        
+.img-title:hover{
+            position: absolute;
+            top: 0;
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+            padding-left: 20px;
+            opacity: 2;
+            background-color: rgba(255, 255, 255, .1);
+            
+            
+        }
+.img-title {
+    opacity:0;
+}
+        
