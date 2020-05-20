@@ -1,5 +1,5 @@
 # Name
-Akan name site
+Delani Studio
 #### By 
 Stella Waithera
 
